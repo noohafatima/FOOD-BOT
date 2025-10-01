@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us - Food Chatbot</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('https://images.unsplash.com/photo-1498579809087-ef1e558fd1da') no-repeat center center/cover;
+      font-family: 'Segoe UI', sans-serif;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .about-box {
+      background-color: rgba(255, 255, 255, 0.92);
+      padding: 30px;
+      border-radius: 10px;
+      width: 500px;
+      max-width: 90%;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+      text-align: center;
+    }
+
+    h2 {
+      color: #ff6347;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #333;
+      text-align: justify;
+      margin-bottom: 15px;
+    }
+
+    a.button {
+      display: inline-block;
+      margin: 10px 10px 5px 10px;
+      text-decoration: none;
+      background-color: #ff6347;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 6px;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+    }
+
+    a.button:hover {
+      background-color: #e5533d;
+    }
+
+    a.back-btn {
+      display: block;
+      margin: 15px auto 0 auto;
+      text-decoration: none;
+      background-color: #555;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-size: 14px;
+      width: fit-content;
+      transition: background-color 0.3s;
+    }
+
+    a.back-btn:hover {
+      background-color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="about-box">
+    <h2>About Us</h2>
+    <p>
+      Welcome to the Food Chatbot! We help you discover delicious dishes, provide recommendations, and guide you to your next favorite meal. Whether you're craving pizza, sushi, or a healthy salad — our chatbot has your taste buds covered!
+    </p>
+    <p>
+      This project is aimed at improving user interaction in the food industry through AI-powered assistance. Hungry? Start chatting now!
+    </p>
+
+    <!-- New Feedback Button linking to sentiment.html -->
+    <a href="sentiment.html" class="button">🍽️ Give Feedback</a>
+
+    <!-- Existing Back to Home button -->
+    <a href="index.html" class="back-btn">← Back to Home</a>
+  </div>
+
+</body>
+</html>
